@@ -6,7 +6,7 @@ import InfoSection from '../components/InfoSection'
 import {aboutMe} from '../components/InfoSection/Data'
 import Portfolio from '../components/Portfolio'
 import Footer from '../components/Footer'
-import logo from '../images/logo1.png'
+
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)

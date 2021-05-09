@@ -1,8 +1,8 @@
 import React from 'react'
-import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, Subtitle, ImgWrap, Img} from './InfoElements'
+import {InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, Heading, Subtitle, Img} from './InfoElements'
 import image from '../../images/Me.png'
 
-const InfoSection = ({lightBg, id, imgStart, topLine, lightText, headline, darkText, description1, description2, description3, img, alt}) => {
+const InfoSection = ({lightBg, id, imgStart, lightText, headline, darkText, description1, description2, description3}) => {
     return (
         <>
            <InfoContainer lightBg={lightBg} id={id}>
