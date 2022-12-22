@@ -9,7 +9,7 @@ export const HeroContainer = styled.div`
   height: 723px;
   width: 100%;
   position: relative;
-  z-index: 1;
+  z-index: 0;
 `;
 
 export const HeroBg = styled.div`
@@ -19,8 +19,9 @@ export const HeroBg = styled.div`
   bottom: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  overflow: hidden;
+  height: 723px;
+  // overflow: hidden;
+  // z-index: 0;
 `;
 
 export const HeroContent = styled.div`
