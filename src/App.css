@@ -1,39 +1,38 @@
-:root{
-    --primary-white: #fff;
-    --primry-green: #4cae50;
-    --secondary-dark: rgba(255,255,255,0);
-    --light-grey: #b8bdc1;
-    --primary-dark: #343a40
-  }
+:root {
+  --primary-white: #fff;
+  --primry-green: #4cae50;
+  --secondary-dark: rgba(255, 255, 255, 0);
+  --light-grey: #b8bdc1;
+  --primary-dark: #343a40;
+}
 
-  *{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'Encode Sans Expanded', sans-serif;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Encode Sans Expanded", sans-serif;
 }
 
 .typed-text {
-    font-size: 2rem;
-    color: var(--light-grey);
+  font-size: 2rem;
+  color: var(--light-grey);
 }
 
 .logo {
-    padding-top: 50px;
-    width: 6rem;
+  padding-top: 50px;
+  width: 6rem;
 }
 
 .FLogo {
   width: 4.5rem;
 }
 
-.container > img, .container > .container_text {
+.container > img,
+.container > .container_text {
   display: inline-block;
 }
 
 .ILogo {
   width: 25rem;
-  padding-bottom: 300px;
-  z-index: 98
+  z-index: 98;
 }
-  
