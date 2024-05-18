@@ -4,7 +4,7 @@ import Home from './pages';
 
 function App() {
   return (
-    <Router basename="/v1">
+    <Router>
       <Home />
     </Router>
   );
